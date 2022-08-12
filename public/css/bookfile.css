@@ -1,0 +1,100 @@
+.unchecked{
+    color:#e5e7eb;
+}
+
+.book-row-body{
+    flex:3;
+}
+.book-row-footer{
+    flex:3;
+}
+div.book-row-body{
+    display: flex;
+}
+div.book-row-body figure{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+div.book-row-body figure img{
+    image-rendering: crisp-edges;
+    object-fit: cover;
+    height: 300px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* Rating area */
+
+progress::-webkit-progress-value {
+    background-color: orange !important;
+    }
+::-webkit-progress-bar {
+background-color: rgb(249, 201, 124);
+}
+
+
+p.section-sort-p:hover span.sortDate,
+p.section-sort-p:hover span.sortStar{
+    display: flex;
+    z-index: 5;
+    background-color: rgb(253 253 234 / var(--tw-bg-opacity));
+    color: black;
+}
+
+span.sortDate{
+    position: absolute;
+    right: 232px;
+    top: 32px;
+    width: 232px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+span.sortDate span{
+    padding: 5px;
+}
+span.sortDate span:hover{
+    color: salmon;
+    border-top:  1px solid rgb(231, 189, 189);
+    border-bottom:  1px solid rgb(231, 189, 189);
+    outline: 0;
+    z-index: 5;
+
+}
+span.sortStar{
+    position: absolute;
+    right: -0px;
+    top: 32px;
+    width: 233px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+span.sortStar span{
+    padding: 5px;
+}
+span.sortStar span:hover{
+    color: salmon;
+    border-top:  1px solid rgb(231, 189, 189);
+    border-bottom:  1px solid rgb(231, 189, 189);
+    outline: 0;
+
+/* Comment Area */
+
+}.comment-img{
+    height: 120px;
+    width: 100px;
+}
+.social-media-accounts{
+    font-size: 1.5rem;
+}
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
